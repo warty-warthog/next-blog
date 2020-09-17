@@ -1,0 +1,14 @@
+{
+  "name": "nextjs-mongodb-app",
+  "version": 2,
+  "build": {
+    "env": {
+      "MONGODB_URI": "@mongodb_uri",
+      "CLOUDINARY_URL": "@cloudinary_url",
+      "DB_NAME": "nextjsmongodbapp",
+      "SENDGRID_API_KEY": "@sendgrid_api_key",
+      "EMAIL_FROM": "averyniceguy@nextjs-mongodb-app.hoangvvo.now.sh",
+      "WEB_URI": "https://nextjs-mongodb-app.hoangvvo.now.sh"
+    }
+  }
+}
